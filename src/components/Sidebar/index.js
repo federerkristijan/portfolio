@@ -9,7 +9,7 @@ import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
 const Sidebar = () => (
   <div className="nav-bar">
     <Link className="logo" to="/">
-      <img src={Logo} alt="logo" width= "64" margin= "8 8" />
+      <img className="img" src={Logo} alt="logo" />
     </Link>
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
