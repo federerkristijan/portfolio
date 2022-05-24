@@ -1,18 +1,13 @@
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss'
-// replace the pic with yours!
-//import Logo from '../../assets/images/kiki_pic.jpg'
-//import LogoSubtitle from '../../assets/images/logo_sub.png'
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import { faHome } from '@fortawesome/free-brands-svg-icons'
-import Home from '../../assets/images/logo_sub.png'
+
+import Logo from '../../assets/images/kf_logo.svg'
+import Home from '../../assets/images/home-solid.svg'
 
 const Sidebar = () => (
   <div className="nav-bar">
     <Link className="logo" to="/">
-      {/* replace the pic with yours! */}
-      {/*<img src={Logo} alt='logo' />*/}
-      { /*<img className='sub-logo' src={LogoSubtitle} alt='name' />*/}
+      <img src={Logo} alt='logo' />
     </Link>
     <nav>
       <NavLink exact='true' activeclassname='active' to='/'>
