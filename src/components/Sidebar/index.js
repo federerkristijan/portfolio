@@ -13,7 +13,12 @@ const Sidebar = () => (
       <img className="img" src={Logo} alt="logo" />
     </Link>
     <nav>
-      <NavLink exact="true" activeclassname="active" to="/">
+      <NavLink
+        exact="true"
+        className="home-link"
+        activeclassname="active"
+        to="/"
+      >
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
       </NavLink>
       <NavLink
@@ -35,6 +40,7 @@ const Sidebar = () => (
       <ul>
         <li>
           <a
+            className="Link"
             target="_blank"
             rel="noreferrer"
             href="https://www.linkedin.com/in/kristijan-federer/"
@@ -42,6 +48,7 @@ const Sidebar = () => (
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
           </a>
           <a
+            className="Git"
             target="_blank"
             rel="noreferrer"
             href="https://github.com/federerkristijan/"

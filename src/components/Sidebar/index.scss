@@ -67,10 +67,16 @@
         transition: all 0.3s ease-out;
       }
 
-      &:first-child {
-        &:after {
-          content: 'HOME';
-        }
+      // &:first-child {
+      //   &:after {
+      //     content: 'HOME';
+      //   }
+      // }
+    }
+
+    a.home-link {
+      &:after {
+        content: 'HOME';
       }
     }
 
@@ -104,7 +110,23 @@
     margin: 0;
 
     li {
-      a {
+      a.Link {
+        padding: 7px 0;
+        display: block;
+        font-size: 15px;
+        line-height: 16px;
+        margin-top: 2px 6px;
+
+        &:hover svg {
+          color: #ffd700;
+        }
+
+        &:after {
+          content: "LINKEDIN";
+        }
+      }
+
+      a.Git {
         padding: 7px 0;
         display: block;
         font-size: 15px;
@@ -112,6 +134,10 @@
 
         &:hover svg {
           color: #ffd700;
+        }
+
+        &:after {
+          content: "GITHUB";
         }
       }
     }
