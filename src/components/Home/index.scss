@@ -1,16 +1,22 @@
 .home-page {
 
+  img {
+    width: 120px;
+    margin: 140px 480px;
+  }
+
   .text-zone {
     position: absolute;
-    left: 10%;
+    left: 15%;
     top: 50%;
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
   }
+
   h1 {
     color: #fff;
-    font-size: 53px;
+    font-size: 40px;
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
@@ -37,9 +43,18 @@
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0;
     }
-
-    img {
-      width: 32px;
-    }
   }
+
+    h2 {
+      color: rgb(237, 139, 139);
+      font-family: 'Coolvetica';
+      font-size: 16px;
+    }
+
+    h3 {
+      color: #fff;
+      font-family: 'Coolvetica';
+      font-size: 14px;
+    }
+
 }
