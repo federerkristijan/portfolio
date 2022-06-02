@@ -33,7 +33,8 @@ const Home = () => {
   ]
 
   useEffect(() => {
-    return setTimeout(() => {
+      // removed return and then it works, research more...useEffect does and doesn't want to return
+     setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 4000)
   }, [])
