@@ -42,7 +42,8 @@ const Home = () => {
 
   return (
     <div className="container home-page">
-      <img src={Pic} alt="profile_pic" />
+      {/*temporary moved the pic until the logo position is solved */}
+      /*<img src={Pic} alt="profile_pic" />*/
       <div className="text-zone">
         <h1>
           <span className={letterClass}>H</span>
@@ -52,13 +53,15 @@ const Home = () => {
           <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
         </h1>
         <h2>
-          <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22} />
+          <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={30} />
           <span className={`${letterClass} _23`}> </span>
-          <span className={`${letterClass} _24`}>with a</span>
+          <span className={`${letterClass} _24`}>with</span>
           <span className={`${letterClass} _25`}> </span>
-          <span className={`${letterClass} _26`}>fullstack</span>
+          <span className={`${letterClass} _26`}>a</span>
           <span className={`${letterClass} _27`}> </span>
-          <span className={`${letterClass} _28`}>background</span>
+          <span className={`${letterClass} _28`}>fullstack</span>
+          <span className={`${letterClass} _29`}> </span>
+          <span className={`${letterClass} _30`}>background</span>
 
         </h2>
         <h3>Ruby on Rails, Javascript, React.js, Stimulus.js, PostgreSQL, GitHub, Figma, etc.</h3>
