@@ -43,7 +43,7 @@ const Home = () => {
   return (
     <div className="container home-page">
       {/*temporary moved the pic until the logo position is solved */}
-      {/*<img src={Pic} alt="profile_pic" />*/}
+      /*<img src={Pic} alt="profile_pic" />*/
       <div className="text-zone">
         <h1>
           <span className={letterClass}>H</span>
