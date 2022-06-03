@@ -2,8 +2,8 @@
 
   img {
     position: absolute;
-    width: 120px;
-    left: 85%;
+    width: 150px;
+    left: 65%;
     top: 13%;
     opacity: 1;
     border-radius: 30px;
@@ -47,6 +47,7 @@
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
+    letter-spacing: 5px;
     animation: fadeIn 1s 1.0s backwards;
 
     &::before {
