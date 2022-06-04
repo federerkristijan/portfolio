@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faFigma, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
-//import Ruby from '../../assets/images/ruby-on-rails.svg'
+// import Ruby from '../../assets/images/ruby-on-rails.svg'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -52,8 +52,8 @@ const About = () => {
               <FontAwesomeIcon icon={faFigma} color='#EC4D28' />
             </div>
             {/* find out why it doesn't show. no FA icon for RoR */}
-            {/* <div className='face6'>
-              <i icon={Ruby} color='#EFD81D' />
+            {/* <div className='face7'>
+              <img src='' color='#EFD81D' />
             </div> */}
           </div>
         </div>
