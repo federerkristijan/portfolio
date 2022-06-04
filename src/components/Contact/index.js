@@ -5,6 +5,7 @@ import './index.scss'
 
 const Contact = (props) => {
   const [letterClass, setLetterClass] = useState('text-animate')
+  const refForm = useRef
 
   useEffect(() => {
     setTimeout(() => {
