@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Loader from 'react-loaders'
 import { Link } from 'react-router-dom'
 import Pic from '../../assets/images/kiki_pic.jpg'
 import AnimatedLetters from '../AnimatedLetters'
@@ -43,6 +44,7 @@ const Home = () => {
   }, [])
 
   return (
+    <>
     <div className="container home-page">
       {/*temporary moved the pic until the logo position is solved */}
       <img src={Pic} alt="profile_pic" />
@@ -78,6 +80,8 @@ const Home = () => {
       </div>
       {/* <Logo /> */}
     </div>
+    <Loader type='pacman' />
+    </>
   )
 }
 
