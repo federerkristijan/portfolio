@@ -38,7 +38,7 @@
   animation-duration: 1s;
 }
 
-.container.about-page {
+.container.about-page, .contact-page {
   .text-zone {
     position: absolute;
     left: 25%;
@@ -48,6 +48,7 @@
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
+    // to avoid text being in a vertical form
     white-space: nowrap;
 
     h1 {
@@ -62,9 +63,10 @@
 
       &::before {
         font-family: 'La Belle Aurore', cursive;
+        color: #ffd700;
         position: absolute;
         margin-top: -10px;
-        // left: -10px;
+        left: -10px;
         opacity: 0.6;
         line-height: 18px;
       }
@@ -72,10 +74,11 @@
       &::after {
         font-family: 'La Belle Aurore', cursive;
         font-size: 18px;
+        color: #ffd700;
         line-height: 18px;
         position: absolute;
-        // left: -30px;
-        // bottom: -20px;
+        left: -30px;
+        bottom: -20px;
         margin-left: 20px;
         opacity: 0.6;
       }
@@ -104,6 +107,6 @@
   }
 
   .text-animate-hover {
-    color: #fff;
+    color: #ffd700;
   }
 }
