@@ -42,13 +42,13 @@
 .container.contact-page {
 
     h1 {
-      font-size: 53px;
+      font-size: 48px;
       font-family: 'Coolvetica';
       color: #ffd700;
       font-weight: 400;
       margin-top: 0;
       position: relative;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       left: -10%;
 
       &::before {
@@ -75,7 +75,7 @@
     }
 
     p {
-      font-size: 15px;
+      font-size: 14px;
       color: #fff;
       font-family: sans-serif;
       font-weight: 300;
@@ -99,12 +99,12 @@
   .text-zone {
       position: absolute;
       left: 15%;
-      top: 50%;
+      top: 25%;
       transform: translateY(-50%);
       width: 45%;
       vertical-align: middle;
       display: table-cell;
-      max-height: 90%;
+      max-height: 50%;
       // to avoid text being in a vertical form
       // white-space: nowrap;
   }
