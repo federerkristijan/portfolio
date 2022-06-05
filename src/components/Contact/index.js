@@ -15,6 +15,7 @@ const Contact = () => {
     }, 3000)
   }, [])
 
+  // still not working, check https://www.emailjs.com/docs/examples/reactjs/
   const sendEmail = (e) => {
     e.preventDefault()
 
@@ -23,7 +24,7 @@ const Contact = () => {
         'gmail',
         'template_92hpdem',
         form.current,
-        '7wNWXf4jT4AUg4UJRbKyf'
+        'PeMqd63ixaE07sXTX'
       )
       .then(
         () => {
