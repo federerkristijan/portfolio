@@ -38,7 +38,8 @@
   animation-duration: 1s;
 }
 
-.container.about-page, .contact-page {
+.container.about-page,
+.container.contact-page {
 
     h1 {
       font-size: 53px;
@@ -74,11 +75,11 @@
     }
 
     p {
-      font-style: 13px;
+      font-size: 15px;
       color: #fff;
       font-family: sans-serif;
       font-weight: 300;
-      width: 50%;
+      width: 70%;
       max-width: fit-content;
       animation: pulse 1s;
 
@@ -97,15 +98,15 @@
 
   .text-zone {
       position: absolute;
-      left: 25%;
+      left: 15%;
       top: 50%;
       transform: translateY(-50%);
-      width: 35%;
+      width: 45%;
       vertical-align: middle;
       display: table-cell;
       max-height: 90%;
       // to avoid text being in a vertical form
-      white-space: nowrap;
+      // white-space: nowrap;
   }
 
   .text-animate-hover {
