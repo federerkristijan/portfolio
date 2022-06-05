@@ -38,16 +38,17 @@
   animation-duration: 1s;
 }
 
-.container.about-page, .contact-page {
+.container.about-page,
+.container.contact-page {
 
     h1 {
-      font-size: 53px;
+      font-size: 48px;
       font-family: 'Coolvetica';
       color: #ffd700;
       font-weight: 400;
       margin-top: 0;
       position: relative;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       left: -10%;
 
       &::before {
@@ -74,11 +75,11 @@
     }
 
     p {
-      font-style: 13px;
+      font-size: 14px;
       color: #fff;
       font-family: sans-serif;
       font-weight: 300;
-      width: 50%;
+      width: 70%;
       max-width: fit-content;
       animation: pulse 1s;
 
@@ -97,15 +98,15 @@
 
   .text-zone {
       position: absolute;
-      left: 25%;
-      top: 50%;
+      left: 15%;
+      top: 25%;
       transform: translateY(-50%);
-      width: 35%;
+      width: 45%;
       vertical-align: middle;
       display: table-cell;
-      max-height: 90%;
+      max-height: 50%;
       // to avoid text being in a vertical form
-      white-space: nowrap;
+      // white-space: nowrap;
   }
 
   .text-animate-hover {
