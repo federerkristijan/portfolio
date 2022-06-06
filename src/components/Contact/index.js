@@ -49,10 +49,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in further develpoing my skills and accepting new
-            challenges - especially ambitious or large projects. However, if you
-            have other request or question, don't hesitate to contact me using
-            below form either.
+          If you have further questions, feel free to reach out and I would be grateful if you would offer me a chance to present myself and my life hacking skills in person. 
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

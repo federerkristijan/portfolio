@@ -8,13 +8,7 @@ const Layout = () => {
       <Sidebar />
       <div className='page'>
         {/*alternatively one can use &lt; === <, &gt; === > */}
-        <span className='tags top-tags'></span>
-
         <Outlet />
-        <span className='tags bottom-tags'>
-          <br />
-          <span className='bottom-tag-html'></span>
-        </span>
       </div>
     </div>
   )
