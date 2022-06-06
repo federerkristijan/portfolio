@@ -28,8 +28,8 @@ const About = () => {
           </h1>
           <div className='swashIn'>
             <p>
-              I'm ambitious front-end developer looking for a role in
-              established IT company, that would allow me to dive deeper into coding,
+              I'm ambitious and freshly baked front-end developer looking for a role in
+              established IT company, with a healthy work enivronment, that would allow me to dive deeper into coding,
               embrace new creative challenges, and further develop my skills and learn new ones.
             </p>
             <br />
