@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Layout from './components/Layout';
 import About from './components/About';
 import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 // import Sidebar from './componenets/Sidebar';
 
 function App() {
