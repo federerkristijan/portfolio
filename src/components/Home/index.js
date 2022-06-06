@@ -87,6 +87,8 @@ const Home = () => {
           <span className={`${letterClass} _28`}>GitHub</span>
           <span className={`${letterClass} _27`}> </span>
           <span className={`${letterClass} _28`}>Figma</span>
+          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _28`}>Bootstrap</span>
         </h3>
         <Link to="/contact" className="flat-button">
           CONTACT ME
