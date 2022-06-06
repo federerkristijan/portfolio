@@ -3,7 +3,7 @@ import './index.scss'
 
 import Logo from '../../assets/images/kf_logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser, faList } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 //import Home from '../../assets/images/home-solid.svg'
 

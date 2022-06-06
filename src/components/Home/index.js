@@ -73,7 +73,21 @@ const Home = () => {
           <span className={`${letterClass} _28`}>background</span>
 
         </h2>
-        <h3>Ruby on Rails, Javascript, React.js, Stimulus.js, PostgreSQL, GitHub, Figma, etc.</h3>
+        <h3>
+          <span className={`${letterClass} _28`}>Ruby on Rails</span>
+          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _28`}>Javascript</span>
+          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _28`}>React.js</span>
+          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _28`}>Stimulus.js</span>
+          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _28`}>PostgreSQL</span>
+          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _28`}>GitHub</span>
+          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _28`}>Figma</span>
+        </h3>
         <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>

@@ -26,9 +26,17 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>Ambitious</p>
-          <p>Confident</p>
-          <p>Finishing sentence</p>
+          <div className='swashIn'>
+            <p>
+              I'm ambitious front-end developer looking for a role in
+              established IT company, that would allow me to dive deeper into coding,
+              embrace new creative challenges, and further develop my skills and learn new ones.
+            </p>
+            <br />
+            <p>
+              Digital native, cosmopolite and polyglot, with a 'Can-do' mindset and positive attitude, that would be a rejuvenating addition to your team!
+            </p>
+          </div>
         </div>
 
         <div className='stage-cube-cont'>
