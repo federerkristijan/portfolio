@@ -28,9 +28,9 @@ const About = () => {
           </h1>
           <div className='swashIn'>
             <p>
-              I'm ambitious and freshly baked front-end developer looking for a role in
+              I am ambitious and freshly baked front-end developer looking for a role in
               established IT company, with a healthy work enivronment, that would allow me to dive deeper into coding,
-              embrace new creative challenges, and further develop my skills and learn new ones.
+              embrace new creative challenges, and further develop my skills and learn new ones. (self-managment)
             </p>
             <br />
             <p>
