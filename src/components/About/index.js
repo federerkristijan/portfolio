@@ -28,13 +28,13 @@ const About = () => {
           </h1>
           <div className='swashIn'>
             <p>
-              I am ambitious and freshly baked front-end developer looking for a role in
-              established IT company, with a healthy work enivronment, that would allow me to dive deeper into coding,
-              embrace new creative challenges, and further develop my skills and learn new ones. (self-managment)
+              I am ambitious front-end developer looking for a role in
+              an IT company, with a healthy work enivronment, that would allow me to dive deeper into coding,
+              embrace new creative challenges, and further develop my skills and learn new ones.
             </p>
             <br />
             <p>
-              Digital native, cosmopolite and polyglot, with a 'Can-do' mindset and positive attitude, that would be a rejuvenating addition to your team!
+              Digital native, cosmopolite and polyglot, with a self-managing 'Can-do' mindset and positive attitude, that would be a rejuvenating addition to your team!
             </p>
           </div>
         </div>
