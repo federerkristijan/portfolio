@@ -4,7 +4,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import emailjs from '@emailjs/browser'
-import { MapContainer, Popup, TileLayer, Marker } from 'react-leaflet'
+// import { MapContainer, Popup, TileLayer, Marker } from 'react-leaflet'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -16,7 +16,6 @@ const Contact = () => {
     }, 3000)
   }, [])
 
-  // still not working, check https://www.emailjs.com/docs/examples/reactjs/
   const sendEmail = (e) => {
     e.preventDefault()
 
