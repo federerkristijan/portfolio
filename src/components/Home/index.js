@@ -71,8 +71,8 @@ const Home = () => {
           <span className={`${letterClass} _26`}>fullstack</span>
           <span className={`${letterClass} _27`}> </span>
           <span className={`${letterClass} _28`}>background</span>
-
         </h2>
+        <br />
         <h3>
           <span className={`${letterClass} _28`}>Ruby on Rails</span>
           <span className={`${letterClass} _27`}> </span>
