@@ -4,6 +4,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import emailjs from '@emailjs/browser'
+// eslint-disable-next-line
 // import { MapContainer, Popup, TileLayer, Marker } from 'react-leaflet'
 
 const Contact = () => {
@@ -49,7 +50,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-          If you have further questions, feel free to reach out and I would be grateful if you would offer me a chance to present myself and my life hacking skills in person. 
+          If you have further questions, feel free to reach out and I would be grateful if you would offer me a chance to present myself and my life hacking skills in person.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

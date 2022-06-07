@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
 // import Sidebar from './componenets/Sidebar';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/projects' element={<Projects />} />
         </Route>
       </Routes>
     </>

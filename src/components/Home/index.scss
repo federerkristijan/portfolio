@@ -2,12 +2,14 @@
 
   img {
     position: absolute;
-    width: 150px;
+    width: 15%;
+    height: 38%;
     left: 65%;
     top: 13%;
     opacity: 1;
-    border-radius: 30px;
+    border-radius: 50%;
     animation: fadeIn 1s 1.0s backwards;
+
 
     &::before {
       font-family: 'La Belle Aurore';
