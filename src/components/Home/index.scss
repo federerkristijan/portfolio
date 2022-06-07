@@ -45,7 +45,7 @@
 
   h1 {
     color: #fff;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
@@ -109,8 +109,9 @@
     color: #fff;
     font-family: 'Coolvetica';
     font-size: 14px;
-    letter-spacing: 2px;
-    font-weight: normal;
+    letter-spacing: 7px;
+    font-weight: 500;
+    margin-top: 8px;
 
     &::before {
       font-family: 'La Belle Aurore';

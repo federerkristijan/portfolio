@@ -3,9 +3,8 @@ import './index.scss'
 
 import Logo from '../../assets/images/kf_logo_wb.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser, faList } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser, faList, faFolderOpen } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import ProjIcon from '../../assets/images/project_management.svg'
 //import Home from '../../assets/images/home-solid.svg'
 
 const Sidebar = () => (
@@ -52,7 +51,7 @@ const Sidebar = () => (
         activeclassname="active"
         to="/projects"
       >
-        <img src={ProjIcon} alt='project-icon' color="#4d4d4e" />
+        <FontAwesomeIcon icon={faFolderOpen} color="#4d4d4e" />
       </NavLink>
       <ul>
         <li>
