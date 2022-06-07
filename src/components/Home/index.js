@@ -75,19 +75,19 @@ const Home = () => {
         <br />
         <h3>
           <span className={`${letterClass} _28`}>Ruby on Rails</span>
-          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _27`}>   </span>
           <span className={`${letterClass} _28`}>Javascript</span>
-          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _27`}>   </span>
           <span className={`${letterClass} _28`}>React.js</span>
-          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _27`}>   </span>
           <span className={`${letterClass} _28`}>Stimulus.js</span>
-          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _27`}>   </span>
           <span className={`${letterClass} _28`}>PostgreSQL</span>
-          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _27`}>   </span>
           <span className={`${letterClass} _28`}>GitHub</span>
-          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _27`}>   </span>
           <span className={`${letterClass} _28`}>Figma</span>
-          <span className={`${letterClass} _27`}> </span>
+          <span className={`${letterClass} _27`}>   </span>
           <span className={`${letterClass} _28`}>Bootstrap</span>
         </h3>
         <Link to="/contact" className="flat-button">
