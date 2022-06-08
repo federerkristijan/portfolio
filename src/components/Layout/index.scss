@@ -28,9 +28,9 @@
   will-change: contents;
   height: 90%;
   min-height: 560px;
-  // position: absolute;
+  position: absolute;
   opacity: 0;
-  // top: 5%;
+  top: 5%;
   margin: 0 auto;
   z-index: 1;
   transform-style: preserve-3d;
@@ -56,9 +56,9 @@
       &::before {
         font-family: 'La Belle Aurore', cursive;
         color: #ffd700;
-        // position: absolute;
+        position: absolute;
         margin-top: -10px;
-        // left: -10px;
+        left: -10px;
         opacity: 0.6;
         line-height: 18px;
       }
@@ -68,9 +68,9 @@
         font-size: 18px;
         color: #ffd700;
         line-height: 18px;
-        // position: absolute;
-        // left: -30px;
-        // bottom: -20px;
+        position: absolute;
+        left: -30px;
+        bottom: -20px;
         margin-left: 20px;
         opacity: 0.6;
       }
@@ -100,9 +100,9 @@
     }
 
   .text-zone {
-      // position: absolute;
-      // left: 15%;
-      // top: 30%;
+      position: absolute;
+      left: 15%;
+      top: 30%;
       transform: translateY(-50%);
       width: 45%;
       vertical-align: middle;
