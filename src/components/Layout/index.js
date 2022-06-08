@@ -5,8 +5,8 @@ import './index.scss';
 const Layout = () => {
   return (
     <div className="App">
-      <Sidebar />
       <div className='page'>
+        <Sidebar />
         {/*alternatively one can use &lt; === <, &gt; === > */}
         <Outlet />
       </div>

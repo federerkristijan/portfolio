@@ -1,11 +1,11 @@
 import './App.scss';
 import { Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './views/Home';
 import Layout from './components/Layout';
-import About from './components/About';
-import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
-import Projects from './components/Projects';
+import About from './views/About';
+import Contact from './views/Contact';
+import Portfolio from './views/Portfolio';
+import Projects from './views/Projects';
 // import Sidebar from './componenets/Sidebar';
 
 function App() {
