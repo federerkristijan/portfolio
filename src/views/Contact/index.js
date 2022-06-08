@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useRef } from 'react'
 import Loader from 'react-loaders'
-import AnimatedLetters from '../AnimatedLetters'
+import AnimatedLetters from '../../components/AnimatedLetters'
 import './index.scss'
 import emailjs from '@emailjs/browser'
 // eslint-disable-next-line

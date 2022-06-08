@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import { Link } from 'react-router-dom'
 import Pic from '../../assets/images/kiki_pic.jpg'
-import AnimatedLetters from '../AnimatedLetters'
+import AnimatedLetters from '../../components/AnimatedLetters'
 // hidding logo as I cannot manipulate it
 // import Logo from './Logo'
 import './index.scss'
