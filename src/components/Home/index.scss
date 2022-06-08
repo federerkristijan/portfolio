@@ -2,7 +2,6 @@
 
   img {
     position: absolute;
-    width: 15%;
     height: 38%;
     left: 65%;
     top: 13%;
@@ -14,7 +13,6 @@
     &::before {
       font-family: 'La Belle Aurore';
       color: #ffd700;
-      font-size: absolute;
       position: absolute;
       margin-top: -40px;
       left: 15px;
@@ -55,7 +53,6 @@
     &::before {
       font-family: 'La Belle Aurore';
       color: #ffd700;
-      font-size: absolute;
       position: absolute;
       margin-top: -40px;
       left: 15px;
@@ -107,9 +104,9 @@
 
   h3 {
     color: #fff;
-    font-family: 'Coolvetica';
+    font-family: 'sans-serif';
     font-size: 14px;
-    letter-spacing: 7px;
+    letter-spacing: 2px;
     font-weight: 500;
     margin-top: 8px;
 
