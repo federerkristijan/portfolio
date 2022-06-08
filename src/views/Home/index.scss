@@ -1,20 +1,21 @@
 .home-page {
 
+
   // profile pic
   img {
-    // position: absolute;
-    width: 100px;
-    left: 65%;
-    top: 13%;
+    display: flex;
+    width: 25vh;
+    align-self: center;
     opacity: 1;
     border-radius: 50%;
     animation: fadeIn 1s 1.0s backwards;
+    margin: 50px 400px;
+    flex-direction: row;
 
 
     &::before {
       font-family: 'La Belle Aurore';
       color: #ffd700;
-      // position: absolute;
       margin-top: -40px;
       left: 15px;
       opacity: 0.5;
@@ -24,7 +25,6 @@
       font-family: 'La Belle Aurore';
       color: #ffd700;
       font-size: 18px;
-      // position: absolute;
       margin-top: 18px;
       margin-left: 20px;
       animation: fadeIn 1s 1.7s backwards;

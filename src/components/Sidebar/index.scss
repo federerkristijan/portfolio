@@ -1,11 +1,8 @@
 .nav-bar {
   background: #000000;
-  width: 10%;
+  width: 15vh;
   height: auto;
-  // position: absolute;
-  // top: 0;
   z-index: 3;
-  // max-height: fit-content;
 
   .logo {
     // display: block;
@@ -115,9 +112,7 @@
   }
 
   ul {
-    // position: absolute;
-    // top: 165%;
-    width: 100%;
+    width: 80%;
     // display: flex;
     padding: 0;
     list-style: none;
@@ -126,11 +121,8 @@
 
     li {
       a.Link {
-        /* padding: 7px 0;*/
-        // display: flex;
         font-size: 25px;
-        line-height: 16px;
-        margin: 15px 15px;
+        margin: 10px 15px;
 
         &:hover svg {
           color: #ffd700;
@@ -146,7 +138,7 @@
         /* padding: 7px 0;*/
         // display: block;
         font-size: 25px;
-        line-height: 16px;
+        // line-height: 16px;
         margin: 15px 15px;
 
         &:hover svg {
