@@ -8,7 +8,9 @@ const Portfolio = () => {
   return (
     <>
       <div className='cv-cont'>
-        <img src={CV} alt="cv" />
+        <div className='zoom'>
+          <img src={CV} alt="cv" />
+        </div>
         <a href={CV_Pdf} className='flat-button' download="Federer Kristijan CV">
           Download CV
         </a>
