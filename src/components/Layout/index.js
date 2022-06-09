@@ -5,12 +5,12 @@ import './index.scss';
 const Layout = () => {
   return (
     <div className="App">
-      <div className='page'>
-        <Sidebar />
-        {/*alternatively one can use &lt; === <, &gt; === > */}
-        <Outlet />
+      <Sidebar />
+        <div className='page'>
+          {/*alternatively one can use &lt; === <, &gt; === > */}
+          <Outlet />
+        </div>
       </div>
-    </div>
   )
 };
 
