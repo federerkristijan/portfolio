@@ -1,18 +1,22 @@
 .home-page {
+  // justify-content: center;
+  // flex-wrap: wrap;
+  // flex-direction: row;
   // profile pic
   img {
     display: flex;
-    width: 200px;
+    width: 100px;
     opacity: 1;
     border-radius: 50%;
     animation: fadeIn 1s 1s backwards;
+    margin: 20px 60px;
     // float: left;
     flex-direction: row;
 
     &::before {
       font-family: 'La Belle Aurore';
       color: #ffd700;
-      margin-top: -40px;
+      // margin-top: -40px;
       left: 15px;
       opacity: 0.5;
     }
@@ -21,8 +25,8 @@
       font-family: 'La Belle Aurore';
       color: #ffd700;
       font-size: 18px;
-      margin-top: 18px;
-      margin-left: 20px;
+      // margin-top: 18px;
+      // margin-left: 20px;
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0;
     }
@@ -38,8 +42,8 @@
       font-weight: 500;
       min-width: 320px;
       height: 90px;
-      display: flex;
-      flex-direction: column;
+      // display: flex;
+      // flex-direction: column;
       // align-self: end;
       // justify-content: space-between;
       transform: translate(-50%, -50%);
@@ -69,19 +73,18 @@
 
   .text-zone {
     transform: translateY(-50%);
-    width: 40%;
-    // max-height: 90%;
+    width: auto;
     flex-direction: row;
   }
 
   h1 {
     color: #fff;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Coolvetica';
     font-weight: 400;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     animation: fadeIn 1s 1s backwards;
-    margin: 80px 50px;
+    padding: 50px 0;
 
     &::before {
       font-family: 'La Belle Aurore';
@@ -100,20 +103,18 @@
 
   h2 {
     color: #8d8d8d;
-    margin-top: 20px;
+    // margin-top: 20px;
     font-weight: 400;
     font-family: 'Coolvetica';
     font-size: 16px;
     letter-spacing: 3px;
     animation: fadeIn 1s 1s backwards;
+    margin: 25px auto;
 
     &::before {
       font-family: 'La Belle Aurore';
       color: #ffd700;
       font-size: 16px;
-      // position: absolute;
-      margin-top: -40px;
-      left: 15px;
       opacity: 0.5;
     }
 
@@ -121,9 +122,6 @@
       font-family: 'La Belle Aurore';
       color: #ffd700;
       font-size: 18px;
-      // position: absolute;
-      margin-top: 18px;
-      margin-left: 20px;
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0;
     }
@@ -135,14 +133,16 @@
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
-    font-family: 'sans-serif';
-    text-decoration: none;
-    padding: 10px 18px;
-    border: 1px solid #ffd700;
-    margin-top: 25px;
+    font-family: 'Coolvetica';
+    text-decoration: dashed;
+    padding: 10px 15px;
+    border: 1.5px solid #ffd700;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 10%;
     float: left;
     animation: fadeIn 1s 1.8s backwards;
-    white-space: no wrap;
+    // white-space: no wrap;
 
     &:hover {
       background: #ffd700;
