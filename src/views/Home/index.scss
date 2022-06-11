@@ -1,7 +1,4 @@
 .home-page {
-  // justify-content: center;
-  // flex-wrap: wrap;
-  // flex-direction: row;
   // profile pic
   img {
     display: flex;
@@ -10,7 +7,7 @@
     border-radius: 50%;
     animation: fadeIn 1s 1s backwards;
     margin: 20px 60px;
-    // float: left;
+    padding: 120px 10px;
     flex-direction: row;
 
     &::before {
@@ -25,27 +22,20 @@
       font-family: 'La Belle Aurore';
       color: #ffd700;
       font-size: 18px;
-      // margin-top: 18px;
-      // margin-left: 20px;
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0;
     }
   }
 
   .text-box {
+    padding: 340px 0px;
 
     h3 {
       color: #fff;
-      // font-family: 'sans-serif';
-      font-size: 14px;
+      font-size: 16px;
       letter-spacing: 3px;
       font-weight: 500;
       min-width: 320px;
-      height: 90px;
-      // display: flex;
-      // flex-direction: column;
-      // align-self: end;
-      // justify-content: space-between;
       transform: translate(-50%, -50%);
 
       &::before {
