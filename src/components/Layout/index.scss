@@ -4,27 +4,24 @@
 }
 
 .page {
-  width: 100%;
+  display: flexbox;
+  width: fit-content;
   height: 100%;
-  // display: flex;
-  // flex-direction: row;
-  // align-items: center;
-
 }
 
 .container {
   display: flex;
   width: 100%;
+  margin-left: 110px;
   will-change: contents;
   opacity: 0;
-  margin: auto;
   z-index: 1;
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-duration: 1s;
   flex-direction: row;
   justify-content: space-evenly;
-  // align-content: center;
+  align-content: center;
 }
 
 .container.home-page,
@@ -43,9 +40,7 @@
       &::before {
         font-family: 'La Belle Aurore', cursive;
         color: #ffd700;
-        // position: absolute;
         margin-top: -10px;
-        left: -10px;
         opacity: 0.6;
         line-height: 18px;
       }
@@ -55,9 +50,6 @@
         font-size: 18px;
         color: #ffd700;
         line-height: 18px;
-        // position: absolute;
-        // left: -30px;
-        // bottom: -20px;
         margin-left: 20px;
         opacity: 0.6;
       }
@@ -88,8 +80,6 @@
 
   .text-zone {
       transform: translateY(-50%);
-      // width: 45%;
-      // max-height: 50%;
       margin-top: 25%;
       animation: fadeIn 1s 1.7s backwards;
       // to avoid text being in a vertical form
