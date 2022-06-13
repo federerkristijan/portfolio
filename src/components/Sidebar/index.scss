@@ -2,9 +2,10 @@
   display: flex;
   background: #000000;
   width: 8%;
-  // height: auto;
+  position: fixed;
   z-index: 3;
   flex-direction: column;
+  overflow: auto;
   // justify-content: space-between;
 
   .logo {
