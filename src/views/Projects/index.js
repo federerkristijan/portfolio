@@ -4,9 +4,9 @@ import Scoobie from '../../assets/images/scooby_app.mov'
 const Projects = props => {
 
   return (
-    <div className='projects-cont'>
+    <div className='container projects-page'>
       <div>
-        <video controls='controls' width='500' height='300' className='scoobie'>
+        <video controls='controls' className='scoobie'>
           <source src={Scoobie} />
         </video>
       </div>
