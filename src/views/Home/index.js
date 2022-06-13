@@ -46,6 +46,9 @@ const Home = () => {
   return (
     <>
     <div className="container home-page">
+      <div className='img'>
+        <img src={Pic} alt="profile_pic" />
+      </div>
       <div className="text-zone">
         <h1>
           <span className={letterClass}>H</span>
@@ -77,9 +80,6 @@ const Home = () => {
         <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>
-      </div>
-      <div>
-        <img src={Pic} alt="profile_pic" />
       </div>
       <h3 className='text-box'>
           <div className='white-text'>

@@ -7,7 +7,7 @@ import Loader from 'react-loaders'
 const Portfolio = () => {
   return (
     <>
-      <div className='cv-cont'>
+      <div className='container portfolio'>
         <div className='zoom'>
           <img src={CV} alt="cv" />
         </div>
