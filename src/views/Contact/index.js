@@ -4,8 +4,6 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../../components/AnimatedLetters'
 import './index.scss'
 import emailjs from '@emailjs/browser'
-// eslint-disable-next-line
-// import { MapContainer, Popup, TileLayer, Marker } from 'react-leaflet'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -41,7 +39,7 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page">
-        <div className="text-zone">
+        <div className="animated-title">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -84,23 +82,6 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        {/* <div className='info-map'>
-          Kristijan Federer
-          <br />
-          Germany,
-          <br />
-          Saalestraße 39b 12055 <br />
-          Berlin <br />
-          <span>federer.kristijan@gmail.com</span>
-        </div>
-        <div className='map-wrap'>
-          <MapContainer center={[13.454975, 52.473267]} zoom={13}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[13.454975, 52.473267]}>
-              <Popup>Kiki lives here</Popup>
-            </Marker>
-          </MapContainer>
-        </div> */}
       </div>
       <Loader type="pacman" />
     </>

@@ -2,6 +2,8 @@
 .swashIn {
   -webkit-animation-name: swashIn;
   animation-name: swashIn;
+  color: #ffd700;
+  width: 180px;
 }
 @-webkit-keyframes swashIn {
   0% {
@@ -60,11 +62,10 @@
   width: 50%;
   height: 75%;
   top: 0;
-  padding-top: 18%;
+  // padding-top: 18%;
   margin-left: 0;
-  position: absolute;
   right: 0;
-  overflow: hidden;
+  // overflow: hidden;
   animation: fadeIn 1s 1.7s backwards;
 }
 
@@ -78,9 +79,9 @@
   margin-left: calc(50% - 100px);
 
   div {
-    position: absolute;
-    width: 180px;
-    height: 180px;
+    position: absolute; // needed to have the cube form
+    width: 120px;
+    height: 120px;
     border: 1px solid #ccc;
     background: rgba(255, 255, 255, 0.4);
     font-size: 100px;

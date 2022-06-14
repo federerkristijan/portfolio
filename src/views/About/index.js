@@ -17,7 +17,7 @@ const About = () => {
   return (
     <>
       <div className="container about-page">
-        <div className="text-zone">
+        <div className="animated-title">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -26,7 +26,7 @@ const About = () => {
             />
           </h1>
           <div className="swashIn">
-            <p>{text}</p>
+            <h2>{text}</h2>
           </div>
         </div>
 

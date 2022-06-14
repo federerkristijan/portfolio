@@ -1,7 +1,7 @@
 .App {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .page {
@@ -15,6 +15,7 @@
   width: 100%;
   height: auto;
   margin-top: 80px;
+  margin-left: 90px;
   will-change: contents;
   opacity: 0;
   z-index: 1;
@@ -40,6 +41,7 @@
       color: #ffd700;
       font-weight: 500;
       letter-spacing: 6px;
+      // max-width: fit-content;
 
       &::before {
         font-family: 'La Belle Aurore', cursive;
@@ -82,11 +84,10 @@
       }
     }
 
-  .text-zone {
-      // moving the object on y (vertical) axis
-      // transform: translateY(-50%);
+  .animated-title {
+      display: flex;
       flex-direction: row;
-      margin-top: 25%;
+      flex-wrap: wrap;
       animation: fadeIn 1s 1.7s backwards;
       // to avoid text being in a vertical form
       // white-space: nowrap;
@@ -94,5 +95,12 @@
 
   .text-animate-hover {
     color: #ffd700;
+  }
+}
+
+// responsivness
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
   }
 }
