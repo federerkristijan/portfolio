@@ -2,13 +2,13 @@
   // profile pic
   img {
     display: flex;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 140px;
     opacity: 1;
     border-radius: 50%;
     animation: fadeIn 1s 1s backwards;
-    margin: 20px 60px;
-    padding: 120px 10px;
+    margin: 20px 10px;
+    // padding: 120px 10px;
     flex-direction: row;
 
     &::before {
@@ -27,7 +27,7 @@
     }
   }
 
-  .text-box {
+  .skills-animation {
     padding: 340px 0px;
 
     h3 {
@@ -59,7 +59,7 @@
     }
   }
 
-  .text-zone {
+  .animated-title {
     transform: translateY(-50%);
     width: auto;
     flex-direction: row;

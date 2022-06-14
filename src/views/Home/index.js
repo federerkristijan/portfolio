@@ -49,7 +49,7 @@ const Home = () => {
       <div className='img'>
         <img src={Pic} alt="profile_pic" />
       </div>
-      <div className="text-zone">
+      <div className="animated-title">
         <h1>
           <span className={letterClass}>H</span>
           <span className={`${letterClass} _12`}>i</span>
@@ -81,7 +81,7 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
-      <h3 className='text-box'>
+      <h3 className='skills-animation'>
           <div className='white-text'>
             <span className={`${letterClass}`}>Ruby on Rails</span>
             <span className={`${letterClass} _27`}>   </span>
