@@ -7,8 +7,7 @@
     opacity: 1;
     border-radius: 50%;
     animation: fadeIn 1s 1s backwards;
-    margin: 20px 10px;
-    // padding: 120px 10px;
+    margin: -170px 40px;
     flex-direction: row;
 
     &::before {
@@ -28,7 +27,7 @@
   }
 
   .skills-animation {
-    padding: 340px 0px;
+    // padding: 340px 0px;
 
     h3 {
       color: #fff;
@@ -59,9 +58,12 @@
     }
   }
 
-  .animated-title {
+  .title {
     transform: translateY(-50%);
     width: auto;
+    height: 250px;
+    margin-top: 80px;
+    margin-left: 20px;
     flex-direction: row;
   }
 
@@ -72,7 +74,7 @@
     font-weight: 400;
     letter-spacing: 3px;
     animation: fadeIn 1s 1s backwards;
-    padding: 50px 0;
+    margin: 70px 0;
 
     &::before {
       font-family: 'La Belle Aurore';
@@ -96,7 +98,7 @@
     font-size: 16px;
     letter-spacing: 3px;
     animation: fadeIn 1s 1s backwards;
-    margin: 25px auto;
+    margin: 30px 90px;
 
     &::before {
       font-family: 'La Belle Aurore';
