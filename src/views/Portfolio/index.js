@@ -11,9 +11,11 @@ const Portfolio = () => {
         <div className='zoom'>
           <img src={CV} alt="cv" />
         </div>
-        <a href={CV_Pdf} className='flat-button' download="Federer Kristijan CV">
-          Download CV
-        </a>
+        <div className='download'>
+          <a href={CV_Pdf} className='flat-button' download="Federer Kristijan CV">
+            Download CV
+          </a>
+        </div>
       </div>
       <Loader type='pacman' />
     </>

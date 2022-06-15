@@ -38,7 +38,7 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page">
-        <div className="animated-title">
+        <div className="title">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -46,40 +46,42 @@ const Contact = () => {
               idx={15}
             />
           </h1>
+        </div>
+        <div className='paragraph'>
           <p>
           If you have further questions, feel free to reach out and I would be grateful if you would offer me a chance to present myself and my life hacking skills in person.
           </p>
-          <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
-              <ul>
-                <li className="half">
-                  <input type="text" name="name" placeholder="Name" required />
-                </li>
-                <li className="half">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    required
-                  />
-                </li>
-                <li>
-                  <input
-                    placeholder="Subject"
-                    type="text"
-                    name="subject"
-                    required
-                  />
-                </li>
-                <li>
-                  <textarea placeholder="Message" name="message" required />
-                </li>
-                <li>
-                  <input type="submit" className="flat-button" value="SEND" />
-                </li>
-              </ul>
-            </form>
-          </div>
+        </div>
+        <div className="contact-form">
+          <form ref={form} onSubmit={sendEmail}>
+            <ul>
+              <li className="half">
+                <input type="text" name="name" placeholder="Name" required />
+              </li>
+              <li className="half">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+              </li>
+              <li className='subject'>
+                <input
+                  placeholder="Subject"
+                  type="text"
+                  name="subject"
+                  required
+                />
+              </li>
+              <li>
+                <textarea placeholder="Message" name="message" required />
+              </li>
+              <li>
+                <input type="submit" className="flat-button" value="SEND" />
+              </li>
+            </ul>
+          </form>
         </div>
       </div>
       <Loader type="pacman" />

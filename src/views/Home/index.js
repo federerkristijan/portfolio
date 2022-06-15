@@ -3,8 +3,6 @@ import Loader from 'react-loaders'
 import { Link } from 'react-router-dom'
 import Pic from '../../assets/images/kiki_pic.jpg'
 import AnimatedLetters from '../../components/AnimatedLetters'
-// hidding logo as I cannot manipulate it
-// import Logo from './Logo'
 import './index.scss'
 
 const Home = () => {
@@ -49,7 +47,7 @@ const Home = () => {
       <div className='img'>
         <img src={Pic} alt="profile_pic" />
       </div>
-      <div className="animated-title">
+      <div className="title">
         <h1>
           <span className={letterClass}>H</span>
           <span className={`${letterClass} _12`}>i</span>
@@ -60,6 +58,8 @@ const Home = () => {
           <br />
           <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
         </h1>
+      </div>
+      <div className='subtitle'>
         <h2>
           {/* <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={30} /> */}
           <span className={`${letterClass} _16`}>Frontend</span>
@@ -76,12 +76,14 @@ const Home = () => {
           <span className={`${letterClass} _27`}> </span>
           <span className={`${letterClass} _28`}>background</span>
         </h2>
-        <br />
+      </div>
+      <div className='btn'>
         <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>
       </div>
-      <h3 className='skills-animation'>
+      <div className='skills'>
+        <h3 className='skills-animation'>
           <div className='white-text'>
             <span className={`${letterClass}`}>Ruby on Rails</span>
             <span className={`${letterClass} _27`}>   </span>
@@ -104,6 +106,7 @@ const Home = () => {
             <span className={`${letterClass} _28`}>SASS</span>
           </div>
         </h3>
+      </div>
     </div>
     <Loader type='pacman' />
     </>

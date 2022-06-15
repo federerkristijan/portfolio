@@ -1,20 +1,22 @@
 .App {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  // justify-content: space-between;
+  flex-flow: row wrap;
+  text-align: center;
+  height: 100%;
 }
 
 .page {
   display: flex;
   width: 100%;
-  // height: 100%;
+  height: 100%;
 }
 
 .container {
   display: flex;
   width: 100%;
-  // height: auto;
-  margin-top: 10px;
+  height: 100%;
+  margin-top: 60px;
   margin-left: 90px;
   will-change: contents;
   opacity: 0;
@@ -85,7 +87,7 @@
       }
     }
 
-  .animated-title {
+  .title {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;

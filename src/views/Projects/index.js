@@ -5,7 +5,7 @@ const Projects = props => {
 
   return (
     <div className='container projects-page'>
-      <div>
+      <div className='video'>
         <video controls='controls' className='scoobie'>
           <source src={Scoobie} />
         </video>

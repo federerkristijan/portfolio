@@ -17,7 +17,7 @@ const About = () => {
   return (
     <>
       <div className="container about-page">
-        <div className="animated-title">
+        <div className="title">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -25,11 +25,10 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <div className="swashIn">
-            <h2>{text}</h2>
-          </div>
         </div>
-
+        <div className="swashIn">
+            <h2>{text}</h2>
+        </div>
         <div className="stage-cube-cont">
           <div className="cubespinner">
             {cube.map((face, index) => {
