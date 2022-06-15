@@ -7,8 +7,7 @@
     opacity: 1;
     border-radius: 50%;
     animation: fadeIn 1s 1s backwards;
-    margin: -170px 40px;
-    flex-direction: row;
+    // flex-direction: row;
 
     &::before {
       font-family: 'La Belle Aurore';
@@ -27,21 +26,20 @@
   }
 
   .skills-animation {
-    // padding: 340px 0px;
 
     h3 {
       color: #fff;
       font-size: 16px;
       letter-spacing: 3px;
       font-weight: 500;
-      min-width: 320px;
+      // min-width: 320px;
       transform: translate(-50%, -50%);
 
       &::before {
         font-family: 'La Belle Aurore';
         color: #ffd700;
-        font-size: absolute;
-        margin-top: -40px;
+        font-size: 18px;
+        // margin-top: -40px;
         left: 15px;
         opacity: 0.5;
       }
@@ -50,8 +48,8 @@
         font-family: 'La Belle Aurore';
         color: #ffd700;
         font-size: 18px;
-        margin-top: 18px;
-        margin-left: 20px;
+        // margin-top: 18px;
+        // margin-left: 20px;
         animation: fadeIn 1s 1.7s backwards;
         opacity: 0;
       }
@@ -60,11 +58,11 @@
 
   .title {
     transform: translateY(-50%);
-    width: auto;
-    height: 250px;
-    margin-top: 80px;
-    margin-left: 20px;
-    flex-direction: row;
+    // width: auto;
+    // height: 250px;
+    // margin-top: 80px;
+    // margin-left: 20px;
+    // flex-direction: row;
   }
 
   h1 {
@@ -74,7 +72,7 @@
     font-weight: 400;
     letter-spacing: 3px;
     animation: fadeIn 1s 1s backwards;
-    margin: 70px 0;
+    // margin: 70px 0;
 
     &::before {
       font-family: 'La Belle Aurore';
@@ -98,7 +96,7 @@
     font-size: 16px;
     letter-spacing: 3px;
     animation: fadeIn 1s 1s backwards;
-    margin: 30px 90px;
+    // margin: 30px 90px;
 
     &::before {
       font-family: 'La Belle Aurore';
