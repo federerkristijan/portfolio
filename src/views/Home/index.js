@@ -45,7 +45,7 @@ const Home = () => {
     <>
     <div className="container home-page">
       <div className='img'>
-        <img src={Pic} alt="profile_pic" />
+        <img src={Pic} alt="profile_pic" class='rounded-circle' />
       </div>
       <div className="title">
         <h1>
