@@ -3,6 +3,8 @@ html {
 }
 
 body {
+  /* allow the body to set a minimum height value based upon the full height of the viewport */
+  min-height: 100vh;
   margin: auto;
   /* font: 300 11px/1.4 'Helvetica Neue', 'sans-serif'; */
   color: #444;
